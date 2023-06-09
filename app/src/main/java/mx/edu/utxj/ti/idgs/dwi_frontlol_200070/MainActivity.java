@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     private JsonArrayRequest jsonArrayRequest;
     private ArrayList<String> origenDatos = new ArrayList<String>();
     private ArrayAdapter<String> adapter;
-    private String url = "http://192.168.3.5:3300";
+    private String url = "http://10.10.62.6:3300";
 
 
     @Override

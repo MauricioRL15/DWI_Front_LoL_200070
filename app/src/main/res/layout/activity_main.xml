@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/img1"
+    android:background="@drawable/img2"
     >
 
 
@@ -14,7 +14,8 @@
         android:layout_height="wrap_content"
         android:hint="Num. de Campeón"
         android:layout_marginTop="3dp"
-        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
         />
 
     <EditText
@@ -24,7 +25,8 @@
         android:layout_alignParentRight="true"
         android:hint="Nombre"
         android:layout_marginTop="3dp"
-        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
         />
 
     <EditText
@@ -34,7 +36,8 @@
         android:layout_below="@id/etNombre"
         android:hint="Descripción"
         android:layout_marginTop="3dp"
-        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
         />
 
     <EditText
@@ -44,8 +47,10 @@
         android:layout_below="@id/etDescripcion"
         android:hint="Num. Aspectos"
         android:layout_marginTop="3dp"
-        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
         />
+
     <EditText
         android:id="@+id/etlvlMaestria"
         android:layout_width="190dp"
@@ -54,7 +59,8 @@
         android:layout_below="@id/etDescripcion"
         android:hint="Lvl Maestría"
         android:layout_marginTop="3dp"
-        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
         />
 
     <EditText
@@ -64,7 +70,8 @@
         android:layout_below="@id/etNumAspectos"
         android:hint="Pasiva"
         android:layout_marginTop="3dp"
-        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
         />
 
     <EditText
@@ -74,7 +81,8 @@
         android:layout_below="@id/etPasiva"
         android:hint="Rol"
         android:layout_marginTop="3dp"
-        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
     />
 
     <EditText
@@ -85,17 +93,21 @@
         android:layout_alignParentRight="true"
         android:hint="Dificultad"
         android:layout_marginTop="3dp"
-        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
     />
     <TextView
         android:id="@+id/tvHabilidad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:text="Habilidades:"
+        android:text="HABILIDADES:"
         android:layout_below="@id/etDificultad"
-        android:textSize="24sp"
-        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
     />
     <EditText
         android:id="@+id/etQ"
@@ -104,7 +116,8 @@
         android:layout_below="@id/tvHabilidad"
         android:hint="Habilidad Q"
         android:layout_marginTop="3dp"
-        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
         />
 
     <EditText
@@ -115,8 +128,10 @@
         android:layout_alignParentRight="true"
         android:hint="Habilidad W"
         android:layout_marginTop="3dp"
-        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
         />
+
     <EditText
         android:id="@+id/etE"
         android:layout_width="190dp"
@@ -124,7 +139,8 @@
         android:layout_below="@id/etW"
         android:hint="Habilidad E"
         android:layout_marginTop="3dp"
-        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
         />
 
     <EditText
@@ -135,7 +151,8 @@
         android:layout_alignParentRight="true"
         android:hint="Habilidad R"
         android:layout_marginTop="3dp"
-        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
         />
     <Button
         android:id="@+id/btnBuscar"
@@ -146,7 +163,8 @@
         android:layout_marginTop="25dp"
         android:backgroundTint="#3F51B5"
         android:text="Buscar"
-        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
         />
 
     <Button
@@ -191,6 +209,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/btnEliminar"
+        android:textColor="@color/white"
+        android:background="@color/white"
         />
 
 </RelativeLayout>
