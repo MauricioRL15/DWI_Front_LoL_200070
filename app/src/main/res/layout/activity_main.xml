@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/img1"
+    >
+
+
+    <EditText
+        android:id="@+id/etNumcampeon"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:hint="Num. de Campeón"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:hint="Nombre"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/etNombre"
+        android:hint="Descripción"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/etNumAspectos"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etDescripcion"
+        android:hint="Num. Aspectos"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/etlvlMaestria"
+        android:layout_width="190dp"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etDescripcion"
+        android:hint="Lvl Maestría"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/etPasiva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etNumAspectos"
+        android:hint="Pasiva"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/etRol"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etPasiva"
+        android:hint="Rol"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/black"
+    />
+
+    <EditText
+        android:id="@+id/etDificultad"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etPasiva"
+        android:layout_alignParentRight="true"
+        android:hint="Dificultad"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/black"
+    />
+    <TextView
+        android:id="@+id/tvHabilidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Habilidades:"
+        android:layout_below="@id/etDificultad"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+    />
+    <EditText
+        android:id="@+id/etQ"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHabilidad"
+        android:hint="Habilidad Q"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/etW"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHabilidad"
+        android:layout_alignParentRight="true"
+        android:hint="Habilidad W"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/etE"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etW"
+        android:hint="Habilidad E"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/etR"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etW"
+        android:layout_alignParentRight="true"
+        android:hint="Habilidad R"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etR"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#3F51B5"
+        android:text="Buscar"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etR"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Guardar"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etR"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#FFC107"
+        android:text="Actualizar"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnBuscar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#FF0303"
+        android:text="Eliminar"
+        android:textColor="@color/black"
+        />
+
+    <ListView
+        android:id="@+id/lvCampeones"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnEliminar"
+        />
+
+</RelativeLayout>
